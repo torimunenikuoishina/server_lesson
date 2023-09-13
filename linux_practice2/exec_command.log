@@ -1,0 +1,108 @@
+    1  ls /
+    2  ls /usr
+    3  pwd
+    4  cd /root
+    5  mkdir server_lesson && cd server_lesson
+    6  yum update -y && yum -y install git
+    7  git version
+    8  git init
+    9  touch first.txt
+   10  mkdir linux_practice1 && cd linux_practice1
+   11  touch index.php
+   12  ls linux_practice1
+   13  cd /sever_lesson
+   14  cd /home
+   15  cd .
+   16  cd/sever_lesson
+   17  cd /sever_lesson
+   18  cd /root
+   19  cd /sever_lesson
+   20  ls
+   21  cd server_lesson
+   22  ls
+   23  cd linux_practice1
+   24  ls
+   25  rm index.php
+   26  ls
+   27  mkdir public
+   28  ls
+   29  cd public
+   30  touch index.php
+   31  ls
+   32  cp index.php index_bk.php
+   33  ls
+   34  cp -r server_lesson/linux_practice1/public server_lesson/linux_practice1/tmp
+   35  cp -r public tmp
+   36  ls
+   37  .
+   38  cd .
+   39  cd linux_practice1
+   40  ls
+   41  cd /..
+   42  ls
+   43  cd root
+   44  cd server_lesson
+   45  ls
+   46  cd linux_practice1
+   47  ls
+   48  cp -r public tmp
+   49  ls
+   50  cd tmp
+   51  ls
+   52  cd .
+   53  cd /..
+   54  cd root
+   55  cd server_lesson
+   56  ls
+   57  cd linux_practice1
+   58  ls
+   59  ls
+   60  cd tmp
+   61  rm index_bk.php
+   62  ls
+   63  cd /..
+   64  ls
+   65  cd server_lesson
+   66  cd root
+   67  ls
+   68  cd server_lesson
+   69  touch README.md
+   70  ls
+   71  vi README.md
+   72  ls
+   73  vi README.md
+   74  ls
+   75  mkdir linux_practice2
+   76  ls
+   77  cd linux_practice2
+   78  mkdir documents
+   79  ls
+   80  cd documents
+   81  ls
+   82  touch gizumo{01..50}.md
+   83  ls
+   84  cd ..
+   85  mkdir trash
+   86  ls
+   87  cd trash
+   88  cd ..
+   89  mv documents/gizumo{20..40}.md trash
+   90  ls
+   91  cd trash
+   92  ls
+   93  cd ..
+   94  touch .gitignore
+   95  ls
+   96  vi .gitignore
+   97  ls
+   98  cd trash
+   99  ls
+  100  git status
+  101  cd ..
+  102  iv trash
+  103  ls
+  104  iv .gitignore
+  105  vi .gitignore
+  106  ls
+  107  history 300
+  108  history 300 > exec_command.log
